@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Cafemate</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="post.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <nav>
+        <div class="navigation">
+            <div class="logo_container">
+                <img src="https://previews.123rf.com/images/serdjo/serdjo2305/serdjo230500434/209926892-coffee-shop-logo-template-natural-abstract-coffee-cup-with-steam-coffee-house-emblem-creative.jpg" alt="logo">
+            </div>
+            <div class="logo_name" style="margin-top: 30px;"> <h1><B>Cafemate</B></h1></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pizaa.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="post.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="contact-container">
+        <div class="contact-header">
+            <h2>Contact Us</h2>
+            <p>We will be so happy to hear you ! Ask whatever you want to or you can just say hello.</p>
+        </div>
+
+        <div class="contact-content">
+            <div class="contact-form">
+                <form id="contact-form"  method="get" action="post.html">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <select id="subject" name="subject" required>
+                            <option value="" >Select a subject</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="reservation">Reservation</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="catering">Special function booking</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" placeholder="How can we help you today?" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+            
+            <div class="contact-info">
+                <div class="info-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1865/1865260.png" alt="Location">
+                    <div class="info-card-content">
+                        <h4>Main Location</h4>
+                        <p>College Road, Nadiad, Gujarat</p>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3059/3059502.png" alt="Phone">
+                    <div class="info-card-content">
+                        <h4>Phone Number</h4>
+                        <p>+91 70169 75646</p>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/552/552486.png" alt="Email">
+                    <div class="info-card-content">
+                        <h4>Email Address</h4>
+                        <p>ogcafemate@gmail.com</p>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3283/3283990.png" alt="Hours">
+                    <div class="info-card-content">
+                        <h4>Opening Hours</h4>
+                        <p>Monday-Friday : 8am - 10pm<br>Saturday : 9am - 11pm<br>Sunday : 9am - 9pm</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="map-container">
+            <p>Our main Outlet loation is :</p>
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.2915887503436!2d72.85956707484088!3d22.693453879462374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc91f5a730f2b%3A0x6e37316b4e1bcd7!2sCollege%20Rd%2C%20Nadiad%2C%20Gujarat%20387001!5e0!3m2!1sen!2sin!4v1712400300000!5m2!1sen!2sin" ></iframe> 
+        </div> 
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="Footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="https://previews.123rf.com/images/serdjo/serdjo2305/serdjo230500434/209926892-coffee-shop-logo-template-natural-abstract-coffee-cup-with-steam-coffee-house-emblem-creative.jpg" alt="Cafemate Logo">
+                <p>Where every bite tells a story and every sip creates a memory</p>
+            </div>
+            
+            <div class="footer-links">
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="pizaa.html">Menu</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="post.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Menu</h4>
+                    <ul>
+                        <li><a href="pizaa.html">Pizza</a></li>
+                        <li><a href="burger.html">Burger</a></li>
+                        <li><a href="coffe.html">Coffee</a></li>
+                        <li><a href="icecream.html">Ice-creams</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Our Locations</h4>
+                    <ul>
+                        <li><a href="https://maps.app.goo.gl/T8AVwusHah3k5J1X9">Anand - Vidyanagar Road</a></li>
+                        <li><a href="https://maps.app.goo.gl/T3GFPfKnVDkLLP3N9">Ahmedabad - Netaji Road</a></li>
+                        <li><a href="https://maps.app.goo.gl/pRFVxaZrvhVyJto37">Baroda - Alkapuri</a></li>
+                        <li><a href="https://maps.app.goo.gl/eNiN7MYcUMmhE3Nm7">Nadiad - College Road</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Opening Hours</h4>
+                    <ul>
+                        <li>Monday - Friday : 8am - 10pm</li>
+                        <li>Saturday : 9am - 11pm</li>
+                        <li>Sunday : 9am - 9pm</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Cafemate. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

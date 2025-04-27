@@ -9,6 +9,10 @@ body{
   font-weight: 300;
   background-color: bisque;
 } */
+ body{
+  margin: 0;
+  padding: 0;
+ }
 
 nav {
   box-shadow: 5px 5px 5px gray;
@@ -219,6 +223,7 @@ nav {
   background-color: rgb(245, 251, 236);
   margin: 0;
   padding: 0;
+  
   /*  font-family: Arial, Helvetica, sans-serif;*/
 }
 
